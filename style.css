@@ -1,0 +1,27 @@
+body{
+    background-image: url(bg.jpg);
+}
+#heading{
+    color: #FFC300 ;
+    text-align: center;
+}
+
+#turnon{
+     color: red;
+     text-align: center;
+     text-shadow: 2px 2px 5px blue;
+}
+.bulb {
+    height: 400px;
+    width: 700px;
+    margin: 100px;
+    left: 50%;
+    margin-left: 400px ;
+    background-image: url(Bulb\ Off.jpg);
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+}
+
+.bulb:hover {
+    background-image: url(Bubl\ On\ 2.1.jpg);
+}
